@@ -42,6 +42,6 @@ Navigate freely to enjoy the amazing work by artists from different continents!
 
 
 
-## Copyright info
+## Copyright info (For the sake of Git Protocol)
 
-This scene is protected with a standard Apache 2 licence. See the terms and conditions in the [LICENSE](/LICENSE) file.
+Apache 2 licence. See the terms and conditions in the [LICENSE](/LICENSE) file.
