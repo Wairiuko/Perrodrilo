@@ -26,7 +26,7 @@ Once you've installed the CLI, download this project and navigate to its directo
 
 ```sh
 # from the project root
-cd <perrodrilo>
+cd perrodrilo-git-master
 
 # install node dependencies
 npm install
