@@ -66,8 +66,8 @@ floor.add(new Transform({
   position : new Vector3(5, 0, 5),
   scale: new Vector3(10, 0.15, 10)
 }))
-let dadaFloor = new BasicMaterial()
-dadaFloor.texture = "materials/alexfloor.png"
+let dadaFloor = new Material()
+dadaFloor.albedoTexture = "materials/alexfloor.png"
 floor.add(collideBox)
 floor.add(dadaFloor)
 engine.addEntity(floor)
@@ -87,7 +87,7 @@ sky.add(sphere)
 //Add first drawing by Otro
 const otroMan = new Entity()
 otroMan.add(new Transform({
-  position: new Vector3(0.75, 0.55, 7),
+  position: new Vector3(0.75, 2.55, 7),
   scale: new Vector3(1.3, 1, 0.05)
 }))
 let otro1 = new BasicMaterial()
@@ -99,7 +99,7 @@ engine.addEntity(otroMan)
 //Add second drawing by Boris
 const borisCoco = new Entity()
 borisCoco.add(new Transform({
-  position: new Vector3(2.05, 0.55, 7),
+  position: new Vector3(2.05, 2.55, 7),
   scale: new Vector3(1.3, 1, 0.05)
 }))
 let boris1 = new BasicMaterial()
@@ -111,7 +111,7 @@ engine.addEntity(borisCoco)
 //Add third drawing by Mox
 const moxMan = new Entity()
 moxMan.add(new Transform({
-  position: new Vector3(3.35, 0.55, 7),
+  position: new Vector3(3.35, 2.55, 7),
   scale: new Vector3(1.3, 1, 0.05)
 }))
 let mox1 = new BasicMaterial()
@@ -123,7 +123,7 @@ engine.addEntity(moxMan)
 //Add fourth drawing by Simon
 const simonGirl = new Entity()
 simonGirl.add(new Transform({
-  position: new Vector3(4.65, 0.55, 7),
+  position: new Vector3(4.65, 2.55, 7),
   scale: new Vector3(1.3, 1, 0.05),
   //rotation: Quaternion.Euler(-90, 0, 0)
 }))
@@ -136,7 +136,7 @@ engine.addEntity(simonGirl)
 //Add fifth drawing by Isa
 const isaCloud = new Entity()
 isaCloud.add(new Transform({
-  position: new Vector3(5.95, 0.55, 7),
+  position: new Vector3(5.95, 2.55, 7),
   scale: new Vector3(1.3, 1, 0.05),
   //rotation: Quaternion.Euler(-90, 0, 0)
 }))
@@ -149,7 +149,7 @@ engine.addEntity(isaCloud)
 //Add sixth drawing by Serste
 const serWoman = new Entity()
 serWoman.add(new Transform({
-  position: new Vector3(7.25, 0.55, 7),
+  position: new Vector3(7.25, 2.55, 7),
   scale: new Vector3(1.3, 1, 0.05),
   //rotation: Quaternion.Euler(-90, 0, 0)
 }))
@@ -162,7 +162,7 @@ engine.addEntity(serWoman)
 //Add seventh drawing by Marko
 const markoMen = new Entity()
 markoMen.add(new Transform({
-  position: new Vector3(8.55, 0.55, 7),
+  position: new Vector3(8.55, 2.55, 7),
   scale: new Vector3(1.3, 1, 0.05) 
 }))
 let marko1 = new BasicMaterial()
@@ -174,7 +174,7 @@ engine.addEntity(markoMen)
 //Add eighth drawing by Serste
 const serToto = new Entity()
 serToto.add(new Transform({
-  position: new Vector3(8.9, 0.56, 6.1),
+  position: new Vector3(8.9, 2.56, 6.1),
   scale: new Vector3(0.05, 1.3, 1),
   rotation: Quaternion.Euler(-90, 0, 0)
 }))
@@ -187,7 +187,7 @@ engine.addEntity(serToto)
 //Add ninth drawing by Mox
 const moxToto = new Entity()
 moxToto.add(new Transform({
-  position: new Vector3(8.9, 0.56, 4.8),
+  position: new Vector3(8.9, 2.56, 4.8),
   scale: new Vector3(0.05, 1.3, 1),
   rotation: Quaternion.Euler(-90, 0, 0)
 }))
@@ -213,9 +213,8 @@ engine.addEntity(moxWoman)
 //Add 11th drawing by Ophelia
 const opheliaEye = new Entity()
 opheliaEye.add(new Transform({
-  position: new Vector3(2.05, 2.55, 6.75),
-  scale: new Vector3(0.05, 1.3, 1),
-  rotation: Quaternion.Euler(-90, 0, -45)
+  position: new Vector3(2.05, 3.55, 7),
+  scale: new Vector3(1.3, 1, 0.05),
 }))
 let ophelia1 = new BasicMaterial()
 ophelia1.texture = "materials/ophelia1.png"
@@ -226,9 +225,8 @@ engine.addEntity(opheliaEye)
 //Add 12th drawing by LuShan
 const luShan = new Entity()
 luShan.add(new Transform({
-  position: new Vector3(2.885, 2.5, 5.5),
-  scale: new Vector3(0.05, 1.3, 1),
-  rotation: Quaternion.Euler(-90, 0, -45)
+  position: new Vector3(3.35, 3.55, 7),
+  scale: new Vector3(1.3, 1, 0.05),
 }))
 let lushan1 = new BasicMaterial()
 lushan1.texture = "materials/lushan1.png"
@@ -252,7 +250,7 @@ engine.addEntity(otroCoco)
 //Add 14th drawing by Serste
 const serCity = new Entity()
 serCity.add(new Transform({
-  position: new Vector3(4.55, 1.55, 6.75),
+  position: new Vector3(4.55, 3.55, 6.75),
   scale: new Vector3(0.05, 1.3, 1),
   rotation: Quaternion.Euler(-90, 0, -45)
 }))
@@ -265,7 +263,7 @@ engine.addEntity(serCity)
 //Add 15th drawing by Boris
 const borisMan = new Entity()
 borisMan.add(new Transform({
-  position: new Vector3(6, 2.55, 6.75),
+  position: new Vector3(6, 3.55, 6.75),
   scale: new Vector3(0.05, 1.3, 1),
   rotation: Quaternion.Euler(-90, 0, -45)
 }))
@@ -291,7 +289,7 @@ engine.addEntity(alexHenry)
 //Add 17th drawing by Simon
 const simonToto = new Entity()
 simonToto.add(new Transform({
-  position: new Vector3(8.9, 1.56, 4.8),
+  position: new Vector3(8.9, 3.56, 4.8),
   scale: new Vector3(0.05, 1.3, 1),
   rotation: Quaternion.Euler(-90, 0, 0)
 }))
