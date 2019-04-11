@@ -4,7 +4,7 @@ DADA gallery in Decentraland showcasing the recently auctioned 'Sight Unseen'
 conversation.
 
 
-![](screenshot/perrodrilo_latest1.png)
+![](screenshot/perrodrilo_latest2.png)
 
 
 We are still figuring out a way to deploy this scene in Now. Once done, [this link](https://perrodrilo-git-master.wairiukosimon.now.sh) takes you to a copy of the scene where you can interact with it without having to install Decentraland SDK, CLI or Node.js and without any programming knowledge. For those who are interested in running the scene locally, you can follow the procedure below. Note you need to have Node.js and npm already installed in your computer. For more details, follow the steps in the [Installation guide](https://docs.decentraland.org/documentation/installation-guide/).
