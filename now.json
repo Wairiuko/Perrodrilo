@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "perrodrilo"
+    "name": "perrodrilo",
     "builds": [{"src": "*.html", "use": "@now/static"},
     {"src": "*.png", "use": "@now/optipng"}],
     "routes": [
