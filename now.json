@@ -1,4 +1,14 @@
 {
     "version": 2,
     "name": "perrodrilo"
+    "builds": [{"src": "*.html", "use": "@now/static"},
+    {"src": "*.png", "use": "@now/optipng"}],
+    "routes": [
+        {
+            "src": "/notfound",
+            "dest": "404.html",
+            "status": 404
+
+        }
+    ]
   }
